@@ -1,0 +1,40 @@
+.assignment-list {
+  padding: 20px;
+  max-width: 600px;
+}
+
+.header {
+  margin-bottom: 24px;
+
+  &__title {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  &__subtitle {
+    color: #666;
+  }
+}
+
+.assignment-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+
+  &__title {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+
+  &__difficulty {
+    font-size: 14px;
+    color: #444;
+  }
+
+  &__button {
+    margin-top: 8px;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+}
